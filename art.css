@@ -1,0 +1,48 @@
+*{
+    box-sizing: border-box;
+}
+
+div#wrapper,footer{
+    margin: auto;
+    width: 1000px;
+    background-color: rgb(251,235,235);
+    padding: 20px;
+
+
+}
+body{
+    font-family: Arial, sans-serif;
+
+}
+nav{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+nav a{
+    margin-right: 20px;
+}
+section.appel, section.bus{
+width: 50%;
+    float: left;
+}
+img.appel{
+    width: 450px;
+}
+img.visuals{
+    width: 450px;
+    float: right;
+    margin-bottom: 13px;
+}
+article{
+    display: inline-block;
+    width: 33%;
+    padding-right: 10px;
+    vertical-align: top;
+}
+footer {
+    background-color: rgb(166,166,166);
+    color: white;
+}
+footer a{
+    color: white;
+}
