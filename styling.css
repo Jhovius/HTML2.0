@@ -1,0 +1,22 @@
+div.form-group{
+
+    margin: 0px;
+    padding: 0px;
+    color: #53b0ea;
+
+
+}
+textarea{
+    resize: vertical;
+    float: left;
+}
+div.form-group1{
+   float: right;
+
+}
+
+
+option{
+
+    position: center;
+}

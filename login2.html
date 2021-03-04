@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+    <link rel="stylesheet" type="text/css" href="styling.css">
+
+</head>
+<body>
+<form action="http://www.savatarian.com/html5/form.php" method="post">
+    <div class="form-group">
+        <label form="voornaam">Voornaam</label>
+        <input type="text" name="voornaam">
+    </div>
+    <div class="form-group">
+        <label form="tussenvoegsel">Tussenvoegsel</label>
+        <input type="text" name="tussenvoegsel">
+    </div>
+    <div class="form-group">
+        <label form="achternaam">Achternaam</label>
+        <input type="text" name="achternaam">
+
+
+<br><br>
+    geslacht: Man:<input type="radio" id="man" name="gender" value="man">
+    Vrouw:<input type="radio" id="vrouw" name="gender" value="vrouw">
+<br><br>
+    Kies een oogkleur:<label for="Kleurogen"></label>
+    <select id="Kleurogen" name="Oogkleur">
+        <option value="Groen">Groen</option>
+        <option value="Blauw">Blauw</option>
+        <option value="Bruin">Zwart</option>
+        <option value="Zwart">Bruin</option>
+    </select>
+
+        <br><br>
+        <label for="Geboortedatum">Geboortedatum:</label>
+        <input type="date" id="Geboortedatum" name="Geboortedatum">
+
+
+
+        <div class="form-group1">
+            <p>lekker eten</p><input type="checkbox" id="eten1" name="eten1" value="Bike">
+            <label for="Eten1"> Sperziebonen</label><br>
+            <input type="checkbox" id="vehicle2" name="vehicle2" value="Car">
+            <label for="vehicle2"> Aardappelen </label><br>
+            <input type="checkbox" id="vehicle3" name="vehicle3" value="Boat">
+            <label for="vehicle3"> Hamburger</label><br><br>
+
+        </div>
+
+
+
+
+
+
+
+        <br><br>
+   <p>omschrijving:</p> <label for="Omschrijving"></label>
+    <textarea id="Omschrijving" name="Omschrijving" rows="4" cols="50">
+
+    </textarea>
+        <form>
+            <br><br><br><br><br>
+            <input type="button" value="Annuleer" onclick="msg()">
+            <input type="submit" value="Ok">
+
+
+        </form>
+
+
+
+
+    </div>
+</form>
+
+
+</body>
+</html>
